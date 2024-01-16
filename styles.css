@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    max-width: 750px;
+    max-height: 1100px;
+    margin: auto;
+}
+
+#card {
+    width: 23.4375em;
+    height: 34.375em;
+    background-color: #fff;
+    border-radius: 0.625em;
+    margin: 3.75em 11.25em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.image img{
+    margin: 20px;
+    border-radius: 0.625em;
+}
+
+#info {
+    margin-left: 1.25em;
+    font-family: 'figtree', sans-serif;
+}
+
+.learning {
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding-top: 0.5em;
+    margin-bottom: 1.125em;
+    border-radius: 0.3125em;
+}
+
+.date {
+    font-size: 1rem;
+    margin-bottom: 1.125em;
+}
+
+.course {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.125em;
+}
+
+.paragraph {
+    margin-bottom: 1.125em;
+    color: hsl(0, 0%, 50%);
+}
+
+.name {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.name img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+
+.attribution { 
+    font-size: 0.6875em; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
